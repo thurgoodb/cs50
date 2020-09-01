@@ -28,15 +28,32 @@
 
 
 <form action="https://google.com/search">
-            <br><br> All these words:<input type="text" name="as_q" >
-            <br><br>Exact word/phrase:<input type="text" name="as_epq" >
-            <br><br>Any of these words:<input type="text" name="as_oq" >
-            <br><br>None of these words:<input type="text" name="as_eq" >
+            <br><br>All these words:<input class="form-control" type="text" name="as_q" >
+            <br><br>Exact word/phrase:<input class="form-control" type="text" name="as_epq" >
+            <br><br>Any of these words:<input class="form-control" type="text" name="as_oq" >
+            <br><br>None of these words:<input class="form-control" type="text" name="as_eq" >
            <br><br> <input type="submit" value="advanced search">
+
+           label {
+             display: inline-block;
+             width: 140px;
+             text-align: right;
+           }​
+           <div class="block">
+               <label>Simple label</label>
+               <input type="text" />
+           </div>
+           <div class="block">
+               <label>Label with more text</label>
+               <input type="text" />
+           </div>
+           <div class="block">
+               <label>Short</label>
+               <input type="text" />
+           </div>
+
+
 </form>
-
-
-
 
 
   </body>
